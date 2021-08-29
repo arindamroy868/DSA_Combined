@@ -1,6 +1,7 @@
 package com.dsa.arrays;
 import java.util.Scanner;
 
+//This Solution is in JAVA for ReverseArray
 public class ReverseArray {
     static void RevArray(int a[],int n){
         for(int i = 0;i<n/2;i++){
