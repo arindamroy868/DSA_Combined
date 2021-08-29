@@ -10,13 +10,13 @@ public class ReverseArray {
         }
     }
     static void RevArray(int a[],int n, int i){
-        if(i>=n){
+        if(i>=n/2){
             return;
         }
         a[i] = a[i]+a[n-1-i];
         a[n-1-i] = a[i]-a[n-1-i];
         a[i] = a[i]- a[n-1-i];
-        RevArray(a,n-1,i+1);
+        RevArray(a,n,i+1);
 
     }
 
@@ -35,6 +35,7 @@ public class ReverseArray {
             System.out.print(a[i]);
         }
         System.out.println();
+        i = 0;
         RevArray(a,n,i); //recursion
         for(i=0;i<n;i++){
             System.out.print(a[i]);
