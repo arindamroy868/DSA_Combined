@@ -5,9 +5,15 @@ import java.util.Scanner;
 public class min_maxElement {
     public static void getMinMax(int arr[], int n){
         int min,max;
-            min = arr[0];
-            max = arr[0];
-        for(int i = 1; i<n; i++){
+            if(arr[0]<arr[1]) {
+                min = arr[0];
+                max = arr[1];
+            }
+            else{
+                min = arr[1];
+                max = arr[0];
+            }
+        for(int i = 2; i<n; i++){
             if(arr[i]<min)
                 min = arr[i];
             else if(arr[i]>max)
