@@ -4,13 +4,10 @@ import java.util.*;
 import java.lang.*;
 
 class Node{
-    int val;
+    int data;
     public Node next = null;
-    Node(){
-
-    }
     Node(int n){
-        val = n;
+        data = n;
     }
 }
 public class DetectCycleInLinkedList {

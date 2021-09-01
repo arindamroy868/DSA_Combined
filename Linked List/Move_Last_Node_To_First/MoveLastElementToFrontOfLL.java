@@ -38,7 +38,7 @@ public class MoveLastElementToFrontOfLL {
         Node curr = head;
         StringBuilder sb = new StringBuilder();
         while(curr != null){
-            sb.append(curr.val+" ");
+            sb.append(curr.data +" ");
             curr = curr.next;
         }
         return sb.append("\n").toString();

@@ -1,5 +1,3 @@
-package com.dsa.arrays;
-
 import java.util.Scanner;
 
 public class min_maxElement {

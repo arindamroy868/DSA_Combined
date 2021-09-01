@@ -9,7 +9,6 @@ import java.lang.*;
 public class ReverseArray2 {
 
     public static void reverseArray(int[] arr){
-
         int n = arr.length;
         int i = 0;
         int j = n-1;
