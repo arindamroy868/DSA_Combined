@@ -61,7 +61,7 @@ public class Add1ToNumberAsLL {
                     tail.next = nN;
                 }
             }
-            addOne(head);
+            head = addOne(head);
             System.out.println("Linked List after operation -> " +printLL(head));
         } catch (Exception e) {
             System.out.println(e.getMessage());
