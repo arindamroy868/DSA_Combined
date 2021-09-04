@@ -23,8 +23,8 @@ public class RemoveDuplicatesFromUnsortedLinkedList {
 
         HashSet<Integer> hs = new HashSet<>();
         while(curr.next != null){
-            hs.add(curr.val);
-            if(hs.contains(curr.next.val)){
+            hs.add(curr.data);
+            if(hs.contains(curr.next.data)){
                 curr.next = curr.next.next;
             }else{
                 curr = curr.next;
@@ -39,7 +39,7 @@ public class RemoveDuplicatesFromUnsortedLinkedList {
         Node curr = head;
         StringBuilder sb = new StringBuilder();
         while(curr != null){
-            sb.append(curr.val+" ");
+            sb.append(curr.data +" ");
             curr = curr.next;
         }
         return sb.append("\n").toString();

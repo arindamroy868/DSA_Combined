@@ -63,7 +63,7 @@ public class FindStartingPointOfLoop {
             }
             Node ans =  findStartingOfLoop(head);
             if(ans != null){
-                System.out.println("Loop Found at Element " + ans.val);
+                System.out.println("Loop Found at Element " + ans.data);
             }else{
                 System.out.println(-1);
             }

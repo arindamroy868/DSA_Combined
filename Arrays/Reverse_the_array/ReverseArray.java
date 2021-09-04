@@ -1,4 +1,3 @@
-package com.dsa.arrays;
 import java.util.Scanner;
 
 //This Solution is in JAVA for ReverseArray

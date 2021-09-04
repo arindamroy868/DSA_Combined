@@ -22,7 +22,7 @@ public class RemoveDuplicatesFromSortedLinkedList {
 
         while(p!=null){
             n = p.next;
-            while(n!=null && p.val == n.val){
+            while(n!=null && p.data == n.data){
                 n = n.next;
             }
             p.next = n;
@@ -37,7 +37,7 @@ public class RemoveDuplicatesFromSortedLinkedList {
         Node curr = head;
         StringBuilder sb = new StringBuilder();
         while(curr != null){
-            sb.append(curr.val+" ");
+            sb.append(curr.data +" ");
             curr = curr.next;
         }
         return sb.append("\n").toString();
