@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 //This Solution is in JAVA for ReverseArray
 public class ReverseArray {
