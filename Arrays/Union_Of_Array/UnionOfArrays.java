@@ -23,7 +23,7 @@ public class UnionOfArrays {
     //Space=O(Min(N,M));
     public static int intersectionOfArrays(Integer[] a,Integer[] b){
         HashSet<Integer> hs = new HashSet<>();
-        List<Integer> res = new ArrayList<>();
+        HashSet<Integer> res = new HashSet<>();
         if(a.length<b.length){
             Integer[] temp = a;
             a = b;
