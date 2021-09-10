@@ -59,8 +59,10 @@ public class Add1ToNumberAsLL {
                     Integer x = Integer.parseInt(st.nextToken());
                     Node nN = new Node(x);
                     tail.next = nN;
+                    tail = tail.next;
                 }
             }
+            System.out.println("Before Operation : "+printLL(head));
             head = addOne(head);
             System.out.println("Linked List after operation -> " +printLL(head));
         } catch (Exception e) {
