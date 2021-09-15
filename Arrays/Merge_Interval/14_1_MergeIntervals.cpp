@@ -3,11 +3,12 @@ using namespace std;
 // DSA450 : Merge Intervals
 
 vector<vector<int>> merge(vector<vector<int>>& intervals){
-    vector<vector<int>> output;
+    if(intervals.size() <= 1)
+        return intervals;
 
+    vector<vector<int>> output;
     // Inserting first element in output
     output.push_back(intervals[0]);
-
     // Now inserting rest of the intervals element by compairing its 2nd index value with next element first index value 
     for (int i = 1; i < intervals.size(); i++){
         if (output.back()[1] >= intervals[i][0])
