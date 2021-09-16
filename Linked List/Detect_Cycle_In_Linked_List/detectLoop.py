@@ -18,7 +18,7 @@ class SlinkedList():
         print()
 
 
-    # (Method 1 Mark node as read by negating the node data) It only works if all node's data is positive.
+    # (Method 1 Hashing) It only works if all node's data is positive.
     # Time Complexity - O(n) and Space Complexity - O(1)
     def detectloop(self):
         currNode = self.headval

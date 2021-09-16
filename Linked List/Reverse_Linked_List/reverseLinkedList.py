@@ -58,7 +58,7 @@ class SlinkedList(Node):
 
 
 
-    # Recursive method Time Complexity - O(n) and Space Complexity - O(1)
+    # Recursive method Time Complexity - O(n) and Space Complexity - O(n)
     def reverse3(self, head):
         
         if head is None or head.nextval is None:
