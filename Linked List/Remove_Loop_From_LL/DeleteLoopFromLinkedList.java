@@ -76,10 +76,12 @@ public class DeleteLoopFromLinkedList {
 
             if(n>0){
                 //Initializing our LL
+                System.out.println("Please enter elements of linked list");
+                st = new StringTokenizer(br.readLine());
                 head = new Node(1);
                 tail = head;
                 for (int i = 2; i <= n; i++) {
-                    tail.next = new Node(i);
+                    tail.next = new Node(Integer.parseInt(st.nextToken()));
                     tail = tail.next;
                 }
 
