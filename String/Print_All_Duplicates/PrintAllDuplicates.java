@@ -17,7 +17,7 @@ public class PrintAllDuplicates {
             if(entry.getValue()>1){
                 System.out.println(entry.getKey()+" -> "+entry.getValue());
             }
-        }
+        }   
     }
     public static void main(String[] args) throws Exception {
         try {
