@@ -18,10 +18,10 @@ public class RabinKarpALgo {
         //A prime number used to calculate the modulo of the hash,
         //in case of hash value goes beyond
         //the possible range of integer values
-        int q = 101;
+        int q = 139;
         //Helper variable to store the value of Pow(d,m-1)
         int h = 1;
-        for(i=0;i<m-1;i++){
+        for(i=0;i<m;i++){
             h = (h*d)%q;
         }
 
@@ -32,7 +32,7 @@ public class RabinKarpALgo {
         }
 
         //Now check for each window if the hash of that matches with the pattern hash or not
-        for(i=0;i<=n-m;i++){
+        for(i=0;i<n-m;i++){
             //Check hash values of current window and pattern
             if(p == t){
                 //Check for each character in the pattern and the txt
@@ -47,7 +47,7 @@ public class RabinKarpALgo {
             }
             //Calculate hash for next window
             if(i<n-m){
-                t = (d*(t - txt.charAt(i)*h) + txt.charAt(i+m))%q;
+                t = ((d*(t - txt.charAt(i)*h)) + txt.charAt(i+m))%q;
                 if(t<0){
                     t = t+q;
                 }
