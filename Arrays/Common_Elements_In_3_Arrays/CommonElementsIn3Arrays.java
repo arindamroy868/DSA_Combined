@@ -1,3 +1,5 @@
+package Common_Elements_In_3_Arrays;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

@@ -1,3 +1,5 @@
+package Buy_And_Sell_Stock_Once;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

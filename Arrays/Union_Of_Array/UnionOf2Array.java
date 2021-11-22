@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+package Union_Of_Array;
 
 import java.util.Scanner;
 import java.util.Map;

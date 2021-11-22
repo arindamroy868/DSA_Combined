@@ -1,4 +1,5 @@
-package com.dsa.arrays;
+package CyclicRotateArray;
+
 import java.util.Scanner;
 import java.util.Arrays;
 

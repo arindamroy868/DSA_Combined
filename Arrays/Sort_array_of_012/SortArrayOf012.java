@@ -1,3 +1,5 @@
+package Sort_array_of_012;
+
 public class SortArrayOf012 {
     
     public void sortArrayOf012(int[] arr){

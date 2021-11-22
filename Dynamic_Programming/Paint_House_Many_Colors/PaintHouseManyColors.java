@@ -1,3 +1,5 @@
+package Paint_House_Many_Colors;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

@@ -1,3 +1,5 @@
+package Kth_Min_Max_element;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+package Buy_And_Sell_Stock_Once;
 
 import java.util.Scanner;
 

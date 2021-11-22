@@ -1,3 +1,5 @@
+package Find_Duplicate_In_Array;
+
 import java.util.Scanner;
 
 class FindDuplicateInArray {

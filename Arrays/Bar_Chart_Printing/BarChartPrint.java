@@ -1,3 +1,5 @@
+package Bar_Chart_Printing;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

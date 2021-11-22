@@ -1,3 +1,5 @@
+package Merge_2_Array;
+
 public class MergeTwoSortedArrays {
     //Time=O(N*M)
     //Space=O(1)

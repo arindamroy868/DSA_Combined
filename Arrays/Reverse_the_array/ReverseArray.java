@@ -1,3 +1,5 @@
+package Reverse_the_array;
+
 import java.util.Scanner;
 
 //This Solution is in JAVA for ReverseArray

@@ -1,3 +1,5 @@
+package Max_Rectangle_In_Histogram;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

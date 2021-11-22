@@ -1,3 +1,5 @@
+package ZeroOneKnapsack;
+
 import java.io.*;
 import java.util.*;
 

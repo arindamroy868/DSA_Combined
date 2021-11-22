@@ -1,3 +1,5 @@
+package Min_No_Jumps;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

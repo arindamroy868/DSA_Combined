@@ -1,7 +1,14 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.lang.*;
+
+class Node{
+    int data;
+    public Node next = null;
+    Node(int n){
+        data = n;
+    }
+}
 
 public class Add1ToNumberAsLL {
 

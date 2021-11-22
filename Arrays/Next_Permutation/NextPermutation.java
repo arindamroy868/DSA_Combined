@@ -1,3 +1,5 @@
+package Next_Permutation;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

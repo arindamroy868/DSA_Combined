@@ -1,3 +1,5 @@
+package Min_Max_Problem;
+
 import java.util.Scanner;
 
 public class min_maxElement {

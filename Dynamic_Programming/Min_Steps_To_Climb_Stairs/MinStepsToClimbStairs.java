@@ -1,3 +1,5 @@
+package Min_Steps_To_Climb_Stairs;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

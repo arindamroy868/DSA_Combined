@@ -1,4 +1,5 @@
-package com.dsa.arrays;
+package Count_Pairs_With_Given_Sum;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;

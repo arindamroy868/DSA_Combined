@@ -1,3 +1,5 @@
+package Union_Of_Array;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;

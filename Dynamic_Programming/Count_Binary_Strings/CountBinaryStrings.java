@@ -1,3 +1,5 @@
+package Count_Binary_Strings;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;

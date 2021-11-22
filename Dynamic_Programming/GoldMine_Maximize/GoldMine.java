@@ -1,3 +1,5 @@
+package GoldMine_Maximize;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
