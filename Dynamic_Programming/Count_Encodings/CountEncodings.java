@@ -2,7 +2,6 @@ package Count_Encodings;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class CountEncodings {

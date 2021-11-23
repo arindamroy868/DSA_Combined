@@ -1,6 +1,5 @@
 package ZeroOneKnapsack;
 
-import java.io.*;
 import java.util.*;
 
 public class ZeroOneKnapsack {
@@ -34,6 +33,7 @@ public class ZeroOneKnapsack {
             weights[i] = sc.nextInt();
         }
         int cap = sc.nextInt();
+        sc.close();
         System.out.println(zeroOneKnapsack(weights,values,cap));
     }
 }

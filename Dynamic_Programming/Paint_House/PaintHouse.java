@@ -3,7 +3,6 @@ package Paint_House;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.lang.*;
 
 public class PaintHouse {
     public static int paintHouse(int n,int[][] costMatrix){

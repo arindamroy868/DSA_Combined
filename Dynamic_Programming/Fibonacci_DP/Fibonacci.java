@@ -1,6 +1,5 @@
 package Fibonacci_DP;
 
-import java.io.*;
 import java.util.*;
 
 public class Fibonacci{
@@ -24,6 +23,7 @@ public class Fibonacci{
         int n = sc.nextInt();
         int[] dp = new int[n+1];
         System.out.println(fibonacci(n,dp));
+        sc.close();
     }
 
 }

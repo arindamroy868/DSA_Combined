@@ -3,7 +3,6 @@ package Coin_Change_Combination;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.lang.*;
 
 public class CoinChangeCombination {
     public static int coinChangeCombination(int[] arr,int n,int tar){
