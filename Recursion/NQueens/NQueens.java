@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.lang.*;
 
 public class NQueens {
     public static boolean cellIsSafe(int[][] chess,int row,int col){
