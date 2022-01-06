@@ -19,6 +19,7 @@ class TreeNode {
         this.right = right;
     }
 }
+
 public class BoundaryTraversal {
     public static List<Integer> boundaryTraversal(TreeNode root){
         List<Integer> result = new ArrayList<>();
