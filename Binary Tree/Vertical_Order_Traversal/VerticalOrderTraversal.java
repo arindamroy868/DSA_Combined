@@ -18,6 +18,7 @@ class TreeNode {
 }
 
 public class VerticalOrderTraversal {
+    
     static Integer min = Integer.MAX_VALUE;
     static Integer max = Integer.MIN_VALUE;
 
