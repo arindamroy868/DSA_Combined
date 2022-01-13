@@ -82,5 +82,6 @@ public class MinTimeToBurnBT {
         node.right.right = new TreeNode(1);
 
         System.out.println(minTimeToBurnBT(node,node.left));
+
     }
 }
