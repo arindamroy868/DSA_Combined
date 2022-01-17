@@ -72,7 +72,7 @@ public class UniqueBTPostorderAndInorder {
 
         int leftTreeLength = p - inStart;
         currentRoot.left = constructUniqueBT(postorder,inorder,postStart,postStart+leftTreeLength-1,inStart,p-1);
-        currentRoot.right = constructUniqueBT(postorder,inorder,postStart+leftTreeLength,postEnd,p+1,inEnd);
+        currentRoot.right = constructUniqueBT(postorder,inorder,postStart+leftTreeLength,postEnd-1,p+1,inEnd);
         return currentRoot;
     }
 
