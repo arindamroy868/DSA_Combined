@@ -90,6 +90,5 @@ public class SerializeDeserializeBT {
         System.out.println(levelOrderTraversal(root));
         root = deserializeBTLevelOrder(serializeBTLevelOrder(root));
         System.out.println(levelOrderTraversal(root));
-
     }
 }
