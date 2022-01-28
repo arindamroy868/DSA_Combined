@@ -32,6 +32,25 @@ public class CeilAndFloorBST {
         }
         return ceil;
     }
+
+    public static TreeNode floorValueNode(int value,TreeNode root){
+        if(root == null) return null;
+        TreeNode ceil = null;
+        TreeNode current = root;
+        while(current != null){
+            if(current.val <= value){
+                if(ceil == null){
+                    ceil = current;
+                }else{
+                    ceil = current.val > ceil.val?current:ceil;
+                }
+                current = current.right;
+            }else{
+                current = current.left;
+            }
+        }
+        return ceil;
+    }
     public static void main(String[] args) {
         TreeNode root = new TreeNode(10);
         root.right = new TreeNode(13);
@@ -40,9 +59,11 @@ public class CeilAndFloorBST {
         root.left = new TreeNode(5);
         root.left.left = new TreeNode(1);
         root.left.right = new TreeNode(6);
-        root.left.right.right = new TreeNode(7);
-        TreeNode res = ceilValueNode(13,root);
-        System.out.println(res!=null?res.val:"null");
+        root.left.right.right = new TreeNode(9);
+        TreeNode ceil = ceilValueNode(13,root);
+        TreeNode floor = floorValueNode(9,root);
+        System.out.println(ceil!=null?ceil.val:"null");
+        System.out.println(floor!=null?floor.val:"null");
     }
 
 }
