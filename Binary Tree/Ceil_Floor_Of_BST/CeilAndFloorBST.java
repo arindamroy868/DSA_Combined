@@ -20,11 +20,7 @@ public class CeilAndFloorBST {
         TreeNode current = root;
         while(current != null){
             if(current.val >= value){
-                if(ceil == null){
-                    ceil = current;
-                }else{
-                    ceil = current.val < ceil.val?current:ceil;
-                }
+                ceil = current;
                 current = current.left;
             }else{
                 current = current.right;
@@ -39,11 +35,7 @@ public class CeilAndFloorBST {
         TreeNode current = root;
         while(current != null){
             if(current.val <= value){
-                if(ceil == null){
-                    ceil = current;
-                }else{
-                    ceil = current.val > ceil.val?current:ceil;
-                }
+                ceil = current;
                 current = current.right;
             }else{
                 current = current.left;
