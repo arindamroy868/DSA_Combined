@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ray-arindam/Data-Structure-Problems/issues"
   },
-  "homepage": "https://github.com/ray-arindam/Data-Structure-Problems#readme"
+  "homepage": "https://github.com/ray-arindam/Data-Structure-Problems#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
